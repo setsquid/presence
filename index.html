@@ -7,11 +7,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<meta name="description" content="Learn the difference between PIR motion sensors and true presence sensors like mmWave radar. Compare tech, power, protocols, and get a simple guide to pick the right sensor.">
+	<meta name="keywords" content="presence sensor, motion sensor, PIR sensor, mmWave radar, smart home sensor, presence detection, HomeKit, Matter, Thread, Zigbee, Z-Wave, smart home automation, presence vs motion sensor, Aqara FP2, true presence detection">
+	<meta name="author" content="Smart Home Guide">
 	<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+	<meta name="googlebot" content="index,follow">
+	<meta name="bingbot" content="index,follow">
 	<link rel="canonical" href="https://presence-sensor.setsquid.org/">
 	<link rel="sitemap" type="application/xml" href="/sitemap.xml">
 	<link rel="icon" href="/favicon.ico">
 	<meta name="theme-color" content="#065f46">
+	<meta name="format-detection" content="telephone=no">
+	
+	<!-- Additional SEO Meta Tags -->
+	<meta name="geo.region" content="US">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="7 days">
+	<meta name="distribution" content="global">
+	<meta name="rating" content="general">
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website">
@@ -27,7 +39,7 @@
 	<meta name="twitter:description" content="Presence vs motion: why lights turn off, and how mmWave fixes it.">
 	<meta name="twitter:image" content="https://presence-sensor.setsquid.org/PIR_vs_presence.png">
 
-	<!-- JSON-LD: WebSite, WebPage, and FAQPage -->
+	<!-- JSON-LD: Comprehensive Structured Data for SEO -->
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
@@ -36,14 +48,75 @@
 		  "@type": "WebSite",
 		  "name": "Your Home's Superpowers: True Presence",
 		  "url": "https://presence-sensor.setsquid.org/",
-		  "inLanguage": "en"
+		  "inLanguage": "en",
+		  "potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://presence-sensor.setsquid.org/?q={search_term_string}",
+			"query-input": "required name=search_term_string"
+		  }
 		},
 		{
 		  "@type": "WebPage",
+		  "@id": "https://presence-sensor.setsquid.org/#webpage",
 		  "name": "Smart Presence Sensor Guide: PIR vs. mmWave Radar & True Presence Detection",
 		  "url": "https://presence-sensor.setsquid.org/",
-		  "description": "Guide explaining PIR vs. true presence (mmWave) sensors, connectivity, power, and a shopping overview.",
-		  "isPartOf": { "@id": "https://presence-sensor.setsquid.org/#website" }
+		  "description": "Comprehensive guide explaining PIR vs. true presence (mmWave) sensors, connectivity protocols (Matter, Thread, Zigbee, Z-Wave), power options, and shopping comparison with product recommendations.",
+		  "isPartOf": { "@id": "https://presence-sensor.setsquid.org/#website" },
+		  "primaryImageOfPage": {
+			"@type": "ImageObject",
+			"url": "https://presence-sensor.setsquid.org/PIR_vs_presence.png",
+			"caption": "Comparison between PIR motion sensors and true presence (mmWave) sensors"
+		  },
+		  "datePublished": "2025-01-01",
+		  "dateModified": "2025-01-01",
+		  "breadcrumb": {
+			"@id": "https://presence-sensor.setsquid.org/#breadcrumb"
+		  }
+		},
+		{
+		  "@type": "BreadcrumbList",
+		  "@id": "https://presence-sensor.setsquid.org/#breadcrumb",
+		  "itemListElement": [
+			{
+			  "@type": "ListItem",
+			  "position": 1,
+			  "name": "Home",
+			  "item": "https://presence-sensor.setsquid.org/"
+			},
+			{
+			  "@type": "ListItem",
+			  "position": 2,
+			  "name": "Presence Sensor Guide",
+			  "item": "https://presence-sensor.setsquid.org/"
+			}
+		  ]
+		},
+		{
+		  "@type": "Article",
+		  "headline": "Smart Presence Sensor Guide: PIR vs. mmWave Radar & True Presence Detection",
+		  "description": "Complete guide to understanding presence sensors, comparing PIR motion sensors with mmWave radar presence sensors, including technology explanations, power requirements, connectivity protocols, and product recommendations.",
+		  "image": "https://presence-sensor.setsquid.org/PIR_vs_presence.png",
+		  "author": {
+			"@type": "Organization",
+			"name": "Smart Home Guide"
+		  },
+		  "publisher": {
+			"@type": "Organization",
+			"name": "Smart Home Guide",
+			"logo": {
+			  "@type": "ImageObject",
+			  "url": "https://presence-sensor.setsquid.org/PIR_vs_presence.png"
+			}
+		  },
+		  "datePublished": "2025-01-01",
+		  "dateModified": "2025-01-01",
+		  "mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://presence-sensor.setsquid.org/"
+		  },
+		  "articleSection": "Smart Home Technology",
+		  "keywords": "presence sensor, motion sensor, PIR, mmWave radar, smart home, Matter, Thread, Zigbee, Z-Wave, HomeKit, Alexa, Google Home, SmartThings",
+		  "articleBody": "This comprehensive guide explains the difference between PIR motion sensors and true presence sensors using mmWave radar technology. Learn about power requirements, connectivity protocols including Matter, Thread, Zigbee, and Z-Wave, and compare popular products like Aqara FP2, Sonoff SNZB-06P, and more."
 		},
 		{
 		  "@type": "FAQPage",
@@ -53,7 +126,7 @@
 			  "name": "What is the difference between a motion sensor (PIR) and a presence sensor (mmWave)?",
 			  "acceptedAnswer": {
 				"@type": "Answer",
-				"text": "PIR detects heat-based movement and can miss a still person. Presence sensors using mmWave detect micro-movements like breathing, so they know you are in the room even when you are still."
+				"text": "PIR (Passive Infrared) sensors detect heat-based movement and can miss a still person. Presence sensors using mmWave (millimeter-wave) radar detect micro-movements like breathing, so they know you are in the room even when you are still. PIR sensors only see changes in heat signatures, while mmWave sensors continuously monitor for the slightest movements including breathing patterns."
 			  }
 			},
 			{
@@ -61,7 +134,7 @@
 			  "name": "Do true presence sensors work on batteries?",
 			  "acceptedAnswer": {
 				"@type": "Answer",
-				"text": "Generally no. True presence (mmWave) sensors continuously emit and analyze radio waves to detect micro‑movements like breathing, which requires constant power. Most battery-based \\\"presence\\\" products are PIR+radar hybrids: the PIR triggers the radar on large motion to save power. These hybrids are slower to re-detect and less accurate than plug‑in or hardwired pure mmWave sensors."
+				"text": "Generally no. True presence (mmWave) sensors continuously emit and analyze radio waves to detect micro‑movements like breathing, which requires constant power. Most battery-based \"presence\" products are PIR+radar hybrids: the PIR triggers the radar on large motion to save power. These hybrids are slower to re-detect and less accurate than plug‑in or hardwired pure mmWave sensors."
 			  }
 			},
 			{
@@ -71,8 +144,57 @@
 				"@type": "Answer",
 				"text": "Recommended order: 1) Matter (best cross-brand compatibility and simpler setup across Apple/Google/Amazon/Samsung); 2) Zigbee (mature, efficient, and widely available with many hubs and devices, often easier to build a complete ecosystem than Z‑Wave); 3) Z‑Wave (reliable but less common today, harder to source a full home setup); 4) Wi‑Fi (hub-free but power-hungry and can congest home networks). Choose based on your existing ecosystem and power needs."
 			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Which presence sensors work with Apple HomeKit?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Presence sensors that support Matter over Thread or Matter over Wi-Fi work with Apple HomeKit. The Aqara FP2 supports Matter and works with HomeKit. You need a HomePod, HomePod mini, or Apple TV 4K (3rd Gen) to act as a Thread Border Router for Thread-based sensors."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Do I need a hub for presence sensors?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "It depends on the protocol. Wi-Fi and Matter over Wi-Fi sensors don't need a hub. Zigbee sensors need a Zigbee hub (like Echo 4th Gen, SmartThings Hub, or dedicated Zigbee hub). Z-Wave sensors need a Z-Wave hub (like SmartThings Hub). Thread sensors need a Thread Border Router (like HomePod, newer Echo devices, or Nest Hub). Matter-enabled sensors work across platforms without platform-specific hubs."
+			  }
 			}
 		  ]
+		},
+		{
+		  "@type": "HowTo",
+		  "name": "How to Choose the Right Presence Sensor for Your Smart Home",
+		  "description": "Step-by-step guide to selecting the best presence sensor based on your needs, power availability, and smart home platform.",
+		  "step": [
+			{
+			  "@type": "HowToStep",
+			  "name": "Determine Your Detection Needs",
+			  "text": "Decide if you need true presence detection (for still activities like reading or working) or just motion detection (for entryways). True presence requires mmWave radar sensors."
+			},
+			{
+			  "@type": "HowToStep",
+			  "name": "Check Power Availability",
+			  "text": "True presence sensors require plug-in power. If you only have battery power available, you're limited to PIR motion sensors or hybrid PIR+radar sensors with reduced accuracy."
+			},
+			{
+			  "@type": "HowToStep",
+			  "name": "Choose Your Protocol",
+			  "text": "Select Matter for best compatibility, Zigbee for mature ecosystems, Z-Wave for reliability, or Wi-Fi for hub-free setup. Consider your existing smart home platform (Apple Home, Google Home, Alexa, or SmartThings)."
+			},
+			{
+			  "@type": "HowToStep",
+			  "name": "Compare Product Features",
+			  "text": "Look for features like zoning/tracking capabilities, built-in light sensors, and compatibility with your smart home platform. Review the shopping guide table for detailed comparisons."
+			}
+		  ]
+		},
+		{
+		  "@type": "Organization",
+		  "name": "Smart Home Guide",
+		  "url": "https://presence-sensor.setsquid.org/",
+		  "logo": "https://presence-sensor.setsquid.org/PIR_vs_presence.png"
 		}
 	  ]
 	}
@@ -872,21 +994,39 @@
     </main>
 
 	<!-- Visible FAQ section for SEO parity with JSON-LD -->
-	<section id="faq" class="container mx-auto p-4 sm:p-6 lg:p-8 mt-4">
+	<section id="faq" class="container mx-auto p-4 sm:p-6 lg:p-8 mt-4" itemscope itemtype="https://schema.org/FAQPage">
 		<div class="bg-white p-6 rounded-lg shadow-lg border border-stone-200 max-w-4xl mx-auto">
-			<h2 class="text-2xl font-bold text-stone-900 mb-4">FAQ</h2>
-			<div class="space-y-4 text-stone-700">
-				<div>
-					<h3 class="font-semibold text-stone-800">What is the difference between a motion sensor (PIR) and a presence sensor (mmWave)?</h3>
-					<p>PIR detects heat-based movement and may miss a still person. Presence sensors using mmWave detect micro-movements like breathing, so they know you're in the room even when you're still.</p>
+			<h2 class="text-2xl font-bold text-stone-900 mb-6">Frequently Asked Questions</h2>
+			<div class="space-y-6 text-stone-700">
+				<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<h3 class="font-semibold text-stone-800 text-lg mb-2" itemprop="name">What is the difference between a motion sensor (PIR) and a presence sensor (mmWave)?</h3>
+					<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<p itemprop="text">PIR (Passive Infrared) sensors detect heat-based movement and can miss a still person. Presence sensors using mmWave (millimeter-wave) radar detect micro-movements like breathing, so they know you're in the room even when you're still. PIR sensors only see changes in heat signatures, while mmWave sensors continuously monitor for the slightest movements including breathing patterns.</p>
+					</div>
 				</div>
-				<div>
-					<h3 class="font-semibold text-stone-800">Do true presence sensors work on batteries?</h3>
-					<p>Generally no. True presence (mmWave) sensors continuously emit and analyze radio waves to detect micro‑movements, which needs constant power. Most battery-based “presence” devices are PIR + radar hybrids: PIR wakes the radar on large motion to save power. They re-detect slower and are less accurate than plug‑in or hardwired pure mmWave sensors.</p>
+				<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<h3 class="font-semibold text-stone-800 text-lg mb-2" itemprop="name">Do true presence sensors work on batteries?</h3>
+					<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<p itemprop="text">Generally no. True presence (mmWave) sensors continuously emit and analyze radio waves to detect micro‑movements like breathing, which requires constant power. Most battery-based "presence" devices are PIR + radar hybrids: the PIR triggers the radar on large motion to save power. These hybrids are slower to re-detect and less accurate than plug‑in or hardwired pure mmWave sensors.</p>
+					</div>
 				</div>
-				<div>
-					<h3 class="font-semibold text-stone-800">What protocol should I choose for smart sensors?</h3>
-					<p><strong>Recommended order:</strong> Matter &rarr; Zigbee &rarr; Z‑Wave &rarr; Wi‑Fi. Matter offers the best cross-brand compatibility and easy setup across Apple/Google/Amazon/Samsung. Zigbee is mature, efficient, and widely available with many hubs and devices, often easier to build a complete ecosystem than Z‑Wave. Z‑Wave is reliable but less common today, making a full-home setup harder to source. Wi‑Fi is hub-free but power-hungry and can congest your network.</p>
+				<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<h3 class="font-semibold text-stone-800 text-lg mb-2" itemprop="name">What protocol should I choose for smart sensors?</h3>
+					<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<p itemprop="text"><strong>Recommended order:</strong> Matter → Zigbee → Z‑Wave → Wi‑Fi. Matter offers the best cross-brand compatibility and easy setup across Apple/Google/Amazon/Samsung. Zigbee is mature, efficient, and widely available with many hubs and devices, often easier to build a complete ecosystem than Z‑Wave. Z‑Wave is reliable but less common today, making a full-home setup harder to source. Wi‑Fi is hub-free but power-hungry and can congest your network.</p>
+					</div>
+				</div>
+				<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<h3 class="font-semibold text-stone-800 text-lg mb-2" itemprop="name">Which presence sensors work with Apple HomeKit?</h3>
+					<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<p itemprop="text">Presence sensors that support Matter over Thread or Matter over Wi-Fi work with Apple HomeKit. The Aqara FP2 supports Matter and works with HomeKit. You need a HomePod, HomePod mini, or Apple TV 4K (3rd Gen) to act as a Thread Border Router for Thread-based sensors.</p>
+					</div>
+				</div>
+				<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<h3 class="font-semibold text-stone-800 text-lg mb-2" itemprop="name">Do I need a hub for presence sensors?</h3>
+					<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<p itemprop="text">It depends on the protocol. Wi-Fi and Matter over Wi-Fi sensors don't need a hub. Zigbee sensors need a Zigbee hub (like Echo 4th Gen, SmartThings Hub, or dedicated Zigbee hub). Z-Wave sensors need a Z-Wave hub (like SmartThings Hub). Thread sensors need a Thread Border Router (like HomePod, newer Echo devices, or Nest Hub). Matter-enabled sensors work across platforms without platform-specific hubs.</p>
+					</div>
 				</div>
 			</div>
 		</div>
